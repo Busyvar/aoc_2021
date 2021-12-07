@@ -69,5 +69,6 @@ int main(){
 	showMap(); //do not use with large set!
 #endif
 	printf("#1: dangerous zone amount: %d\n",getDangerousZoneAmount());
+	fclose(fp);
 	return 0;
 }
