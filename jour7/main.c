@@ -14,6 +14,7 @@ int compare(const void* a,const void* b){
     else if ( int_a < int_b ) return -1;
     else return 1;
 }
+//get sum of sequence 1+...+n
 const int triangularNumber(const int v,const int acc){
 	if(!v)
 		return acc;
